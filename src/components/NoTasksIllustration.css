@@ -1,0 +1,21 @@
+.no-tasks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: lightblue; /* Light blue background */
+    text-align: center;
+  }
+  
+  .no-tasks-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .no-tasks-text {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  

@@ -1,0 +1,82 @@
+
+/* Set the background color of the navbar */
+.navbar-custom {
+    background-color: navy;
+  }
+  
+  /* Set the text color to white for better visibility */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link,
+  .navbar-custom .form-inline .form-control,
+  .navbar-custom .form-inline .btn {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .nav-link:focus {
+    color: lightgray;
+  }
+  
+  .navbar-custom .form-inline .form-control::placeholder {
+    color: lightgray;
+  }
+  
+  /* Dropdown items */
+  .navbar-custom .dropdown-menu {
+    background-color: navy;
+  }
+  
+  .navbar-custom .dropdown-item {
+    color: white;
+    display: flex;
+  align-items: center;
+  }
+  .navbar-custom .dropdown-item .mr-2 {
+    margin-right: 0.5rem;
+  }
+  .navbar-custom .dropdown-item:hover,
+  .navbar-custom .dropdown-item:focus {
+    background-color: lightgray;
+    color: navy;
+  }
+  .navbar-custom .brand-icon {
+    color: white;
+  }
+  /* Ensure search icon and input field have appropriate styles */
+  .navbar-custom .search-container {
+    display: flex;
+    align-items: center;
+    transition: width 0.4s ease, opacity 0.4s ease;
+    overflow: hidden;
+    width: 0; /* Hide by default */
+    margin-right: 10px;
+  }
+  
+  .navbar-custom .search-container.visible {
+    width: 200px; /* Adjust this value as needed */
+  }
+  
+  .navbar-custom .search-input {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: opacity 0.4s ease;
+  }
+  
+  .navbar-custom .search-container.visible .search-input {
+    opacity: 1;
+  }
+  
+  .navbar-custom .search-button {
+    margin-left: 10px;
+  }
+  .add-task-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 10px;
+    z-index: 1000; /* Make sure the button is above other content */
+  }

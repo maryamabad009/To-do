@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.app-container {
+  background-color: lightblue; /* Light blue background for the entire app */
+  min-height: 100vh; /* Ensure the container takes full viewport height */
+  display: flex;
+  flex-direction: column;
+}
 
 .App-header {
   background-color: #282c34;

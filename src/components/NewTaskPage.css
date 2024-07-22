@@ -1,0 +1,88 @@
+/* New Task Page Background */
+.new-task-page {
+  background-color: #e3f2fd; /* Light Blue */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+/* Navbar Customization */
+.navbar-custom {
+  background-color: #001f3f; /* Navy Blue */
+}
+
+.back-button {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+/* Form Controls */
+.form-control {
+  margin-bottom: 1rem;
+  border: 1px solid #90caf9; /* Light Blue Border */
+  background-color: #e3f2fd; /* Light Blue Background */
+  color: #000; /* Text color to ensure readability */
+}
+
+.form-control:focus {
+  border-color: #64b5f6; /* Darker Light Blue Border */
+  background-color: #e3f2fd; /* Keep background color light blue */
+  box-shadow: 0 0 0 0.2rem rgba(100, 171, 243, 0.25); /* Light Blue Shadow */
+}
+
+.form-label {
+  color: #1e88e5; /* Light Blue */
+}
+
+/* Margin Top */
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+/* Floating Action Button */
+.fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fab:hover {
+  background-color: #0056b3;
+}
+
+.fab:focus {
+  outline: none;
+  background-color: #0056b3;
+}
+
+.fab:active {
+  background-color: #004494;
+}
+
+/* Voice Button Customization */
+.voice-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.voice-button:focus {
+  outline: none;
+}
+
+.voice-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
