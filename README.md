@@ -1,3 +1,9 @@
+# Main page
+![image](https://github.com/user-attachments/assets/f6a648b0-3e80-47ff-88aa-e462ebb2ba0b)
+
+# Add New Task
+![image](https://github.com/user-attachments/assets/f1c3be40-aeb0-4f9d-a93e-75ad3a770282)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
